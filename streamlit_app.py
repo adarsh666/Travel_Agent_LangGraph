@@ -9,7 +9,7 @@ st.markdown("""
 💡 **Plan your next trip with AI!**  
 Enter your travel details below, and our AI-powered travel assistant will create a personalized itinerary including:
  Best places to visit 🎡   Accommodation & budget planning 💰
- Local food recommendations 🍕   Transportation & visa details 🚆
+ Local food recommendations 🍕   Transportation 🚆
 """)
 
 # User Inputs
