@@ -1,0 +1,10 @@
+ipykernel
+CurrencyConverter
+duckduckgo-search
+python-dotenv
+langchain
+langchain-groq
+langchain-community
+langgraph
+streamlit
+-e .
