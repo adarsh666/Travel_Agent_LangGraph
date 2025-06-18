@@ -20,7 +20,7 @@ date_to = st.date_input("📅 Return Date")
 num_travellers = st.number_input("Total Passengers")
 budget = st.number_input("🎯 Max Budget")
 
-# Button to run CrewAI
+# Button to run Trip Agent
 if st.button("🚀 Generate Travel Plan"):
     if not from_city or not destination_city or not date_from or not date_to or not num_travellers\
          or not budget:
@@ -41,11 +41,11 @@ if st.button("🚀 Generate Travel Plan"):
         st.subheader("✅ Your AI-Powered Travel Plan")
         st.markdown(result)
 
-        travel_plan_text = str(result)  # ✅ Convert Agent output to string
+        travel_plan_text = str(result)
 
         st.download_button(
             label="📥 Download Travel Plan",
-            data=travel_plan_text,  # ✅ Now passing a valid string
+            data=travel_plan_text,
             file_name=f"Travel_Plan_{destination_city}.txt",
             mime="text/plain"
         )
